@@ -1,0 +1,12 @@
+{
+    "Project": "Github and AWS integration",
+    "BusinessUnit": "Operatoins",
+    "Application Name": "githubtrigger",
+    "Application Support team or Queue": "Support",
+    "CreatedBy": "John Doe",
+    "CreatedOn": "03-17-2021",
+    "Data Classification": "Public",
+    "Environment": "dev",
+    "support": "Infrastructure Development",
+    "cost_center": "CC12345"
+}
