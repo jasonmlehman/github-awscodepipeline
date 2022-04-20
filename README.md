@@ -4,4 +4,4 @@
 
 2)  Update CDK.json with the Account ID where the CodePipelines will be deployed to.
 
-3)  Optionally update the Account ID where the infrascture will be deployed to.  This account will need a boostrap CDK trust with the codepipeline account
+3)  Optionally update the Account ID where the infrascture will be deployed to.  This account will need a boostrap CDK trust with the codepipeline account!
