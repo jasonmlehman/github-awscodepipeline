@@ -1,2 +1,1 @@
-# github-awscodepipeline
-# Hello
+# Template AWS Cloud Development Kit (CDK) repository to use GitHub as a source repository for AWS Code Pipelines.
