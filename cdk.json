@@ -1,0 +1,33 @@
+{
+  "app": "python app.py",
+  "context": {
+    "codeaccount": "Account ID with the code",
+    "infraaccount": "Account ID where the code deploys to",
+    "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
+    "@aws-cdk/core:enableStackNameDuplicates": true,
+    "aws-cdk:enableDiffNoFail": true,
+    "@aws-cdk/core:stackRelativeExports": true,
+    "@aws-cdk/aws-ecr-assets:dockerIgnoreSupport": true,
+    "@aws-cdk/aws-secretsmanager:parseOwnedSecretName": true,
+    "@aws-cdk/aws-kms:defaultKeyPolicies": true,
+    "@aws-cdk/aws-s3:grantWriteWithoutAcl": true,
+    "@aws-cdk/aws-ecs-patterns:removeDefaultDesiredCount": true,
+    "@aws-cdk/aws-rds:lowercaseDbIdentifier": true,
+    "@aws-cdk/aws-efs:defaultEncryptionAtRest": true,
+    "@aws-cdk/aws-lambda:recognizeVersionProps": true,
+    "@aws-cdk/aws-cloudfront:defaultSecurityPolicyTLSv1.2_2021": true,
+    "@aws-cdk/core:newStyleStackSynthesis": true,
+    "pipeline": {
+      "repo_name": "github-awscodepipeline",
+      "repo_description": "Demo pipeline with github as source",
+      "branch": "main",
+      "cdk_cli_version": "1.132.0",
+      "pipeline_name": "github-Pipeline",
+      "build_commands": ["echo Hello World"],
+      "install_commands": ["pip3 install -r requirements.txt", "npm install -g aws-cdk"],
+      "synth_command": "cdk synth",
+      "self_mutating": "True",
+      "project_name": "Github AWS codepipeline integration"
+    }
+  }
+}
